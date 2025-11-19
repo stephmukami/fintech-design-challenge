@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 @custom-variant dark (&:where(.dark, .dark *));
@@ -22,17 +23,29 @@
   src: url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 }
 
+@font-face {
+  font-family: "Roboto", sans-serif;
+  display: swap;
+  /* can be a url or a download .tiff file */
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+}
+
+
 
 
 
 @theme {
-  --font-display: "Inter", sans-serif;
+  --font-second-display: "Inter", sans-serif;
   --font-heading: "Brygada 1918", serif;
+    --font-display: "Roboto", sans-serif;
+
 
   --color-brand-yellow: #DDE048;
   --color-brand-grey: #F6F8F6;
   --color-secondary-yellow: #EBF8D3;
   --color-secondary-blue: #85BBD5;
+   --color-secondary-dark-grey: #464646;
+
 
 }
 
