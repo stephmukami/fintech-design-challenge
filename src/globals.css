@@ -43,11 +43,23 @@
   --color-brand-yellow: #DDE048;
   --color-brand-grey: #F6F8F6;
   --color-secondary-yellow: #EBF8D3;
-  --color-secondary-blue: #85BBD5;
+  --color-secondary-blue: #2D8CBA;
    --color-secondary-dark-grey: #464646;
 
 
 }
 
+   @keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.carousel-track {
+  animation: scroll-left 20s linear infinite;
+}
 
 

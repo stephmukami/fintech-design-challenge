@@ -4,8 +4,8 @@ function HomePageNavbar() {
     return (
         <>
           
-            <div className="bg-transparent font-display">
-                <div className="flex items-center text-white justify-between p-5 bg-transparent z-10 absolute top-0 left-0 right-0 text-lg ">
+            <div className="bg-transparent font-display ">
+                <div className="flex items-center text-white justify-between p-5 bg-transparent z-10 absolute top-0 left-0 right-0 text-lg mt-2">
 
                     <div className="logo">
                         <img src="./clear-logo.png" alt="clear teya logo" className="h-10" />
